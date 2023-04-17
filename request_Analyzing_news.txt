@@ -1,7 +1,7 @@
 Please read this news and convert it to this format : 
 {
     "date": "date",
-    "source": "source",
+    "source": "name",
     "good_news": "boolean",
     "crypto_impacted": "all or crypto names",
     "impact": "a number between 0 and 10 representing impact intensity",
@@ -11,3 +11,5 @@ Please read this news and convert it to this format :
     "region": "impacted region",
     "person": "most important person in this news"
 }
+
+for the data could it be date format dd/mm/yyyy and the source give me just the name

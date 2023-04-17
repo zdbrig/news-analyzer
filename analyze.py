@@ -34,6 +34,10 @@ for request in config["requests"]:
             logging.warning(f"No files found in directory: {root}")
         else:
             for name in files:
+                if request["dist_dir"] in root:
+                    # Skip file if root contains dist_dir
+                    logging.debug(f"Skipping file in {root}")
+                    continue
                 escaped_content, file_path = filter(name, root, request)
                 if escaped_content:
                     try:
