@@ -1,0 +1,13 @@
+Please read this news and convert it to this format : 
+{
+    "date": "date",
+    "source": "source",
+    "good_news": "boolean",
+    "crypto_impacted": "all or crypto names",
+    "impact": "a number between 0 and 10 representing impact intensity",
+    "title": "title",
+    "short_summary": "description",
+    "topic": "regulation, investment, new project, ban, scam, hack ...",
+    "region": "impacted region",
+    "person": "most important person in this news"
+}

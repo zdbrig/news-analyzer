@@ -1,0 +1,18 @@
+{
+    "project_dir": ".",
+    "authorization": "Your open ai key", 
+    "openai-model":"gpt-3.5-turbo", 
+    "news_api_key":"Your news api key",
+    "requests":[
+        {   "security criteria":"",
+            "request": "request_Analyzing_news.txt",
+            "files_to_be_included": " *.json ", 
+            "files_to_be_excluded": "*.chatgpt" ,
+            "dist_dir": "analyzedNews",
+            "output_extension": ".json",
+            "rules":"assistant_rules_Analyzing_news.txt",
+            "collecting_data_output":"analyzing_news"
+        }
+     
+    ]
+}
